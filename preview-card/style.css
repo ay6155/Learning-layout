@@ -1,0 +1,97 @@
+*{
+     margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'kumbh sans', sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-size: 18px;
+    min-height:100vh;
+    background:#0ad6f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background:#ffffff;
+    max-width:90%;
+    width:100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:480px){
+    main{
+        width:100%;
+    }
+}
+
+.header-container{
+    background:#1f8b99;
+    
+    min-height: 150px;
+    
+}
+.card-info-name{
+   text-align:center;
+}
+img{
+    background: #fff;
+    border-radius: 50%;
+    border:5px solid #ffffff;
+    margin:0 auto;
+    margin-top:-50px;
+     margin-bottom:15px;
+    display: block;
+
+}
+.card-info-profile{
+    margin-top:1em;
+    text-align:center;
+}
+.card-info-name{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+     gap:10px;
+}
+.card-info-name .heavy-font{
+    font-size:1rem;
+    
+    font-weight:800;
+
+}
+.card-info-name .card-info-age{
+    font-size:1rem;
+    font-weight:200;
+    color:#ccc;
+}
+    .card-profile-region{
+        margin-top:0.9rem;
+        color:#ccc;
+        padding-bottom:1.5rem;
+        border-bottom:1px solid #ccc;
+    }
+
+    .card-info-social{
+        display:flex;
+        justify-content:space-evenly;
+        padding:20px 0;
+        
+    }
+    .card-social-followers{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size:1rem;
+    }
+    @media screen and (max-width:480px){
+        body{
+            width:100%;
+        
+    }
+    
+
